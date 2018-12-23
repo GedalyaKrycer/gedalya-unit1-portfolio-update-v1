@@ -21,6 +21,15 @@ a:hover {
   color: #fff;
 }
 
+h1 {
+  font-size: 50px;
+}
+
+.description-spacer {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
 /* Section Styles */
 .main-nav {
   width: 100%;
@@ -60,26 +69,13 @@ a:hover {
 }
 header {
   text-align: center;
-  background: url('img/home-header-bg.jpg') no-repeat top center;
+  background: url('img/exp-header-bg.jpg') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
 header {
   line-height: 1.5;
-}
-header .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 1px solid white;
-  box-shadow: 0 2px 10px rgba(33,33,33,.1);
-  transition: all .3s;
-}
-header .profile-image:hover {
-  box-shadow: 0 11px 50px rgba(33,33,33,.2);
-  border: 3px solid #1F5178;
 }
 main {
   border-top: 1px solid #949494;
@@ -92,14 +88,10 @@ main {
   display: table;
   margin: 10px auto;
 }
-.location {
-  background-color: #1F5178;
-  color: white;
-}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 800px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -109,37 +101,6 @@ main {
 .card:hover {
   border-color: #1F5178;
 }
-.card-wide {
-  margin: 30px;
-  padding: 100px;
-  width: 1100px;
-  text-align: center;
-  border-radius: 6px;
-  text-transform: uppercase;
-  font-size: 60px;
-  background:linear-gradient(0deg,rgba(31,81,120,0.9),rgba(31,81,120,0.9)), url('img/cta-bg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-ul.skills {
-  padding: 0;
-  text-align: center;
-}
-.skills li {
-  border-radius: 6px;
-  display: inline-block;
-  background: #f0f9ff;
-  color: #1F5178;
-  padding: 10px 15px;
-  margin: 2px;
-}
-
-/* I am commenting out the code below on purpase to help simplify the design. But I do understand that the nth-child(odd) is targetting the odd number list items. */
-/* .skills li:nth-child(odd) {
-  background: #1F5178;
-} */
 
 footer {
   width: 100%;
